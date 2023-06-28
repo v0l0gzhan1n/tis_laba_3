@@ -1,0 +1,16 @@
+let a;
+let b = 1;
+let c ="А";
+let d ="A"*"B";
+let e =10/0;
+let f =-10/0;
+let g = null;
+let h = true;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(g);
+console.log(h);

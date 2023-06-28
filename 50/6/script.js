@@ -1,0 +1,1 @@
+alert( String(true) + 1 ); //Выведет true1
