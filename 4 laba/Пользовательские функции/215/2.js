@@ -1,12 +1,10 @@
-function sum(arr) {
-	let res = 0;
-  
-	for (let elem of arr) {
-	  res += elem;
+function getDivisors(num) {
+	let divisors = [];
+	for (let i = 1; i <= num; i++) {
+	  if (num % i === 0) {
+		divisors.push(i);
+	  }
 	}
-  
-	return res;
+	return divisors;
   }
-  
-  console.log(sum([1, 2, 3, 4, 5]));
   

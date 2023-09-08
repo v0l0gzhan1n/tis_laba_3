@@ -1,10 +1,7 @@
-function func1() {
-	return 3;
+function getArraySum(arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
   }
-  
-  function func2() {
-	return 5;
-  }
-  
-  console.log(func1() + func2()); 
-  
+  return sum;
+}
